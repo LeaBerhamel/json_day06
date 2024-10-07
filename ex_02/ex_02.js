@@ -1,4 +1,4 @@
-const agentString = '{"age": 57, "code": "007", "prenom": "James", "nom": "Bond"}';
+const agentString = '{"age": 57, "code": "007", "firstName": "James", "lastName": "Bond"}';
 const updatedAgent = addCar(agentString, 'Aston Martin');
  
 function addCar(agentString, car) {
