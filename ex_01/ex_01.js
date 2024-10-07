@@ -1,5 +1,4 @@
-document.addEventListener("DOMContentLoaded", function() {
- 
+window.onload = function () {
     function displayAgentInfo(obj) {
         const age = 57;
         const firstName = "James";
@@ -9,4 +8,4 @@ document.addEventListener("DOMContentLoaded", function() {
             <p>My name is ${lastName}, ${firstName} ${lastName}! I'm the agent ${code} and I'm ${age} years old.</p>`;
     }
     displayAgentInfo();
-})
+};
