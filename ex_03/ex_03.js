@@ -23,4 +23,4 @@ agent = addCarToAgent(agent, 'Aston Martin', 'DB5', 'Grey', '285bhp');
  
 if (agent) {
     shareThatBeauty(agent);
-};
+}
