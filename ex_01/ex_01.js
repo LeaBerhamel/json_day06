@@ -1,7 +1,12 @@
-function displayAgentInfo(obj) {
-    document.getElementById("container").innerHTML = `
-        <p>My name is bond, James bond! I'm the agent 007 and I'm 57 years old.</p>
-    `;
-}
+document.addEventListener("DOMContentLoaded", function() {
  
-displayAgentInfo();
+    function displayAgentInfo(obj) {
+        const age = 57;
+        const firstName = "James";
+        const lastName = "Bond";
+        const code = "007";
+        document.getElementById("container").innerHTML = `
+            <p>My name is ${lastName}, ${firstName} ${lastName}! I'm the agent ${code} and I'm ${age} years old.</p>`;
+    }
+    displayAgentInfo();
+})
