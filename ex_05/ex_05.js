@@ -19,9 +19,7 @@ let agent = {
   logInfo() {
     console.log(`Agent information: ${this.name}, ${this.code}, ${this.age}`);
     console.log(`${this.name}'s Car information: ${this.car.color}, ${this.car.model}, ${this.car.brand}`);
-    // On appelle la méthode logInfo de la voiture pour éviter la répétition de code
-    this.car.logInfo();
-  },
+  }
 };
  
 // On appelle la méthode logInfo() de l'objet agent pour afficher les informations de l'agent et les informations de sa voiture
