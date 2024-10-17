@@ -1,11 +1,13 @@
 window.onload = function () {
+    const obj = {
+        age: 57,
+        code: "007",
+        firstName: "James",
+        lastName: "Bond"
+    };
     function displayAgentInfo(obj) {
-        const age = 57;
-        const firstName = "James";
-        const lastName = "Bond";
-        const code = "007";
         document.getElementById("container").innerHTML = `
-            <p>My name is ${lastName}, ${firstName} ${lastName}! I'm the agent ${code} and I'm ${age} years old.</p>`;
+            <p>My name is ${obj.lastName}, ${obj.firstName} ${obj.lastName}! I'm the agent ${obj.code} and I'm ${obj.age} years old.</p>`;
     }
-    displayAgentInfo();
+    displayAgentInfo(obj);
 };
